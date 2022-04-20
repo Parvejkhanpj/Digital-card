@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;600;700&display=swap");
+
+.App {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #23252c;
+  font-family: "Inter", sans-serif;
+}
+
+.intro--img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+  height: 317px;
+  align-items: center;
+}
+
+.tittle-name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+
+  color: #ffffff;
+  margin: 21px 70px 0px 68.94px;
+}
+
+.tittle-tag {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 15px;
+  text-align: center;
+
+  color: #f3bf99;
+  margin-top: 6px;
+}
+
+.tittle-link {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  /* identical to box height, or 15px */
+
+  text-align: center;
+
+  color: #f5f5f5;
+  margin-top: 8px;
+}
+
+.tittle-link > a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.social-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.email-btn {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  width: 175px;
+  height: 34px;
+
+  /* white */
+
+  background: #ffffff;
+  /* gray/300 */
+
+  border: 1px solid #d1d5db;
+  box-sizing: border-box;
+  /* shadow/sm */
+
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.link-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  margin-left: 10px;
+
+  /* position: absolute; */
+  width: 175px;
+  height: 34px;
+
+  background: #5093e2;
+  /* shadow/sm */
+
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* ABOUT US  */
+
+.about-container {
+  padding: 10px 40px 10px 40px;
+  /* position: absolute; */
+  width: 440px;
+
+  margin: 0px auto;
+}
+
+.about {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  /* or 24px */
+  color: #f5f5f5;
+}
+
+.des {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.24px;
+  line-height: 150%;
+  /* or 15px */
+
+  color: #dcdcdc;
+}
+
+/* footer design */
+
+.footer-icon {
+  width: 360px;
+  height: 64px;
+  left: 116px;
+  top: 760px;
+  margin: 0px auto;
+
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.footer-icon > a {
+  margin-top: 5px;
+}
